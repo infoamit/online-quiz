@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>WelCome To The Online Quiz </h1>
+{% if user.is_authenticated %}
+
+    <p>Your Email is : {{user.email}}</p>
+{%else%}
+PLease Login  <a href="/login/">click here</a>
+{% endif %}
+    
+{% endblock  %}
