@@ -9,7 +9,7 @@ using `virtualenv ~/envOne `# envOne will be environment Name
 
 Then Activate virtual environment using `source ~/envOne/bin/activate`
 
-Then install dependenies using this cmd `pip install -r requirements.txt`
+Then install dependenies using this cmd `pip install django and pip install django-model-utils`
 
 Then run cmd `python manage.py migrate`
 
